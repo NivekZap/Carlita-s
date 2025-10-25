@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+
 import { cache } from "react";
 
 let cached = global.mongoose;
@@ -7,7 +8,7 @@ if (!cached) {
   cached = global.mongoose = { conn: null, promise: null };
 }
 
- async function conectDB() {
+ async function connectDB() {
 
     if (cached.conn) {
         return cached.conn;
