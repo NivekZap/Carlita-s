@@ -4,13 +4,13 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Image from "next/image";
 import { useState } from "react";
-import { usepAppContext } from "@/context/AppContext";
+import { useAppContext } from "@/context/AppContext";
 import toast from "react-hot-toast";
 
 
 const AddAddress = () => {
 
-    const {getToken, router} = usepAppContext()
+    const {getToken, router} = useAppContext()
 
     const [address, setAddress] = useState({
         fullName: '',
