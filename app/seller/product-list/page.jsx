@@ -51,7 +51,7 @@ const ProductList = () => {
                 <th className="w-2/3 md:w-2/5 px-4 py-3 font-medium truncate">Product</th>
                 <th className="px-4 py-3 font-medium truncate max-sm:hidden">Category</th>
                 <th className="px-4 py-3 font-medium truncate">
-                  Price
+                  Precio
                 </th>
                 <th className="px-4 py-3 font-medium truncate max-sm:hidden">Action</th>
               </tr>
