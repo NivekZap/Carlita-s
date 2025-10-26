@@ -4,8 +4,13 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Image from "next/image";
 import { useState } from "react";
+import { usepAppContext } from "@/context/AppContext";
+import toast from "react-hot-toast";
+
 
 const AddAddress = () => {
+
+    const {getToken, router} = usepAppContext()
 
     const [address, setAddress] = useState({
         fullName: '',
@@ -18,6 +23,20 @@ const AddAddress = () => {
 
     const onSubmitHandler = async (e) => {
         e.preventDefault();
+        try {
+            
+            const token = await getToken()
+
+            const {data} = await axios.post('/api/user/add-address',{address},{headers: {Authorization: `Bearer ${token}`}})
+            if (data.success) {
+                toast.success(data.message)
+                router.push('/cart')
+            } else {
+                toast.error(data.message)
+            } 
+        } catch (error) {
+            toast.error(error.message)
+        }
 
     }
 
@@ -27,7 +46,7 @@ const AddAddress = () => {
             <div className="px-6 md:px-16 lg:px-32 py-16 flex flex-col md:flex-row justify-between">
                 <form onSubmit={onSubmitHandler} className="w-full">
                     <p className="text-2xl md:text-3xl text-gray-500">
-                        Add Shipping <span className="font-semibold text-orange-600">Address</span>
+                        Añadir Envio <span className="font-semibold text-orange-600">Dirrecion</span>
                     </p>
                     <div className="space-y-3 max-w-sm mt-10">
                         <input

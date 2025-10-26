@@ -154,7 +154,7 @@ export const productsDummyData = [
       "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/imwuugqxsajuwqpkegb5.webp",
       "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/k1oqaslw5tb3ebw01vvj.webp"
     ],
-    "category": "Earphone",
+    "category": "x1",
     "date": 1738667236865,
     "__v": 0
   },
@@ -168,7 +168,7 @@ export const productsDummyData = [
     "image": [
       "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/m16coelz8ivkk9f0nwrz.webp"
     ],
-    "category": "Headphone",
+    "category": "x2",
     "date": 1738667310300,
     "__v": 0
   },
@@ -182,7 +182,7 @@ export const productsDummyData = [
     "image": [
       "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/xjd4eprpwqs7odbera1w.webp"
     ],
-    "category": "Smartphone",
+    "category": "x3",
     "date": 1738667366224,
     "__v": 0
   },
@@ -196,7 +196,7 @@ export const productsDummyData = [
     "image": [
       "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/hdfi4u3fmprazpnrnaga.webp"
     ],
-    "category": "Earphone",
+    "category": "x4",
     "date": 1738667417511,
     "__v": 0
   },
@@ -210,7 +210,7 @@ export const productsDummyData = [
     "image": [
       "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/dd3l13vfoartrgbvkkh5.webp"
     ],
-    "category": "Accessories",
+    "category": "x5",
     "date": 1738667503075,
     "__v": 0
   },
@@ -224,7 +224,7 @@ export const productsDummyData = [
     "image": [
       "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/r5h370zuujvrw461c6wy.webp"
     ],
-    "category": "Camera",
+    "category": "x6",
     "date": 1738667788883,
     "__v": 0
   },
@@ -238,7 +238,7 @@ export const productsDummyData = [
     "image": [
       "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/rzri7kytphxalrm9rubd.webp"
     ],
-    "category": "Laptop",
+    "category": "x7",
     "date": 1738667977644,
     "__v": 0
   },
@@ -252,7 +252,7 @@ export const productsDummyData = [
     "image": [
       "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/e3zjaupyumdkladmytke.webp"
     ],
-    "category": "Earphone",
+    "category": "x1",
     "date": 1738668086331,
     "__v": 0
   },
@@ -266,7 +266,7 @@ export const productsDummyData = [
     "image": [
       "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/qqdcly8a8vkyciy9g0bw.webp"
     ],
-    "category": "Accessories",
+    "category": "x2",
     "date": 1738668126660,
     "__v": 0
   },
@@ -280,7 +280,7 @@ export const productsDummyData = [
     "image": [
       "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/wig1urqgnkeyp4t2rtso.webp"
     ],
-    "category": "Laptop",
+    "category": "x3",
     "date": 1738668619198,
     "__v": 0
   }
@@ -316,7 +316,7 @@ export const orderDummyData = [
             "https://res.cloudinary.com/djbvf02yt/image/upload/v1738667238/niw7tqxvjsxt7wcehxeo.png",
             "https://res.cloudinary.com/djbvf02yt/image/upload/v1738667237/h8cq4x9cfzqzwaiarvpk.png"
           ],
-          "category": "Earphone",
+          "category": "x2",
           "date": 1738667236865,
           "__v": 0
         },
@@ -355,7 +355,7 @@ export const orderDummyData = [
           "image": [
             "https://res.cloudinary.com/djbvf02yt/image/upload/v1738667311/m16coelz8ivkk9f0nwrz.png"
           ],
-          "category": "Headphone",
+          "category": "x3",
           "date": 1738667310300,
           "__v": 0
         },
@@ -397,7 +397,7 @@ export const orderDummyData = [
             "https://res.cloudinary.com/djbvf02yt/image/upload/v1738667238/niw7tqxvjsxt7wcehxeo.png",
             "https://res.cloudinary.com/djbvf02yt/image/upload/v1738667237/h8cq4x9cfzqzwaiarvpk.png"
           ],
-          "category": "Earphone",
+          "category": "x5",
           "date": 1738667236865,
           "__v": 0
         },
