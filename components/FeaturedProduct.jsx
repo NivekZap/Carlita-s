@@ -5,19 +5,19 @@ import Image from "next/image";
 const products = [
   {
     id: 1,
-    image: assets.girl_with_headphone_image,
+    image: assets.vinos,
     title: "xxxxxxxxxxxxx",
     description: "xxxxxxxxxxxxxxxxxxxxxxx",
   },
   {
     id: 2,
-    image: assets.girl_with_earphone_image,
+    image: assets.chorizo,
     title: "xxxxxxxxxxxxx",
     description: "xxxxxxxxxxxxxxxxxxxxxxx",
   },
   {
     id: 3,
-    image: assets.boy_with_laptop_image,
+    image: assets.trago,
     title: "xxxxxxxxxxxxx",
     description: "xxxxxxxxxxxxxxxxxxxxxxx",
   },
