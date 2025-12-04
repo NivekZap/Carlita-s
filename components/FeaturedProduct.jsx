@@ -1,29 +1,34 @@
 import React from "react";
 import { assets } from "@/assets/assets";
 import Image from "next/image";
+import { useAppContext } from "@/context/AppContext";
 
 const products = [
   {
     id: 1,
     image: assets.vinos,
-    title: "xxxxxxxxxxxxx",
-    description: "xxxxxxxxxxxxxxxxxxxxxxx",
+    title: "Encuentra los mejores vinos",
+    description: " ",
   },
   {
     id: 2,
     image: assets.chorizo,
-    title: "xxxxxxxxxxxxx",
-    description: "xxxxxxxxxxxxxxxxxxxxxxx",
+    title: "Encuentra los mejores embutidos",
+    description: " ",
   },
   {
     id: 3,
     image: assets.trago,
-    title: "xxxxxxxxxxxxx",
-    description: "xxxxxxxxxxxxxxxxxxxxxxx",
+    title: "Pasa la navidad con los mejores tragos",
+    description: " ",
   },
 ];
 
+
+
 const FeaturedProduct = () => {
+
+    const { router } = useAppContext()
   return (
     <div className="mt-14">
       <div className="flex flex-col items-center">
@@ -31,7 +36,7 @@ const FeaturedProduct = () => {
         <div className="w-28 h-0.5 bg-orange-600 mt-2"></div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-14 mt-12 md:px-14 px-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-14 mt-12 md:px-14 px-4" href="/all-products">
         {products.map(({ id, image, title, description }) => (
           <div key={id} className="relative group">
             <Image
@@ -44,7 +49,7 @@ const FeaturedProduct = () => {
               <p className="text-sm lg:text-base leading-5 max-w-60">
                 {description}
               </p>
-              <button className="flex items-center gap-1.5 bg-orange-600 px-4 py-2 rounded">
+              <button className="flex items-center gap-1.5 bg-orange-600 px-4 py-2 rounded" onClick={() => { router.push('/all-products') }}>
                 Compra Ahora! <Image className="h-3 w-3" src={assets.redirect_icon} alt="Redirect Icon" />
               </button>
             </div>

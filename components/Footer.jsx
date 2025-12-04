@@ -9,28 +9,25 @@ const Footer = () => {
         <div className="w-4/5">
           <Image className="w-28 md:w-32" src={assets.logo2} alt="logo2" />
           <p className="mt-6 text-sm">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+           Carlita´s es una tienda en línea dedicada a ofrecer una amplia variedad de productos de alta calidad para el cuidado personal y la belleza. Nuestra misión es proporcionar a nuestros clientes productos innovadores y efectivos que realcen su belleza natural y promuevan el bienestar. Nos comprometemos a ofrecer un servicio excepcional y una experiencia de compra satisfactoria para todos nuestros clientes.
           </p>
         </div>
 
         <div className="w-1/2 flex items-center justify-start md:justify-center">
           <div>
-            <h2 className="font-medium text-gray-900 mb-5">X</h2>
+            <h2 className="font-medium text-gray-900 mb-5">Nosotros</h2>
             <ul className="text-sm space-y-2">
               <li>
-                <a className="hover:underline transition" href="#">Inicio</a>
+                <a className="hover:underline transition" href="/">Inicio</a>
               </li>
               <li>
-                <a className="hover:underline transition" href="#">Acerca de  us</a>
+                <a className="hover:underline transition" href="/">Acerca de </a>
               </li>
               <li>
-                <a className="hover:underline transition" href="#">Contactame</a>
+                <a className="hover:underline transition" href="/">Contactame</a>
               </li>
               <li>
-                <a className="hover:underline transition" href="#">Politica de privacidad</a>
+                <a className="hover:underline transition" href="/">Politica de privacidad</a>
               </li>
             </ul>
           </div>
@@ -38,7 +35,7 @@ const Footer = () => {
 
         <div className="w-1/2 flex items-start justify-start md:justify-center">
           <div>
-            <h2 className="font-medium text-gray-900 mb-5">x</h2>
+            <h2 className="font-medium text-gray-900 mb-5">Ponte en Contacto con nosotros</h2>
             <div className="text-sm space-y-2">
               <p> +51 959349131</p> 
               <p>u17203294@utp.edu.pe</p>

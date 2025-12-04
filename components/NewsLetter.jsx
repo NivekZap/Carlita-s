@@ -7,17 +7,16 @@ const NewsLetter = () => {
         Subscribe ahora y ten un 20% de descuento
       </h1>
       <p className="md:text-base text-gray-500/80 pb-8">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry.
+        Mira las últimas ofertas y promociones directamente en tu bandeja de entrada
       </p>
       <div className="flex items-center justify-between max-w-2xl w-full md:h-14 h-12">
         <input
           className="border border-gray-500/30 rounded-md h-full border-r-0 outline-none w-full rounded-r-none px-3 text-gray-500"
           type="text"
-          placeholder="Enter your email id"
+          placeholder="Ingresa tu correo electrónico"
         />
         <button className="md:px-12 px-8 h-full text-white bg-orange-600 rounded-md rounded-l-none">
-          Subscribe
+          Subscribete
         </button>
       </div>
     </div>
